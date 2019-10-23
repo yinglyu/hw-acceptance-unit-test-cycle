@@ -465,3 +465,23 @@ Processing by MoviesController#index as HTML
   [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
   Rendered movies/index.html.haml within layouts/application (5.2ms)
 Completed 200 OK in 20ms (Views: 17.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 63.145.62.105 at 2019-10-23 06:49:27 +0000
+
+
+Started GET "/movies" for 63.145.62.105 at 2019-10-23 06:49:27 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (50.7ms)
+Completed 200 OK in 354ms (Views: 311.4ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/" for 63.145.62.105 at 2019-10-23 06:49:59 +0000
+
+
+Started GET "/movies" for 63.145.62.105 at 2019-10-23 06:49:59 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (17.2ms)
+Completed 200 OK in 236ms (Views: 206.0ms | ActiveRecord: 1.6ms)
