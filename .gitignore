@@ -1,6 +1,5 @@
 .bundle/
 .rspec
-coverage/
 db/*.sqlite3
 db/schema.rb
 lib/tasks/
